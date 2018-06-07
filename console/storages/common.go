@@ -8,8 +8,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/7phs/wordReEmed/console/options"
-	"github.com/7phs/wordReEmed/lib/model/glove"
+	"github.com/7phs/wordReEmbed/console/options"
+	"github.com/7phs/wordReEmbed/lib/model/glove"
 )
 
 func StoreVocab(fileName string, vocab glove.VocabCount, op *options.GloveOptions) (int, error) {

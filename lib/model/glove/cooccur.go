@@ -2,8 +2,8 @@ package glove
 
 import (
 	"container/ring"
-	"github.com/7phs/wordReEmed/console/options"
-	"github.com/7phs/wordReEmed/lib/storages"
+	"github.com/7phs/wordReEmbed/console/options"
+	"github.com/7phs/wordReEmbed/lib/storages"
 )
 
 type Cooccur struct {

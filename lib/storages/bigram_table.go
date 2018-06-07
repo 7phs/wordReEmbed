@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/7phs/wordReEmed/console/options"
+	"github.com/7phs/wordReEmbed/console/options"
 )
 
 type BigramStorage interface {

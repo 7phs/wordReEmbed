@@ -3,10 +3,10 @@ package glove
 import (
 	"fmt"
 	"os"
-	"github.com/7phs/wordReEmed/console/options"
-	"github.com/7phs/wordReEmed/console/storages"
-	"github.com/7phs/wordReEmed/lib/model/glove"
-	storages2 "github.com/7phs/wordReEmed/lib/storages"
+	"github.com/7phs/wordReEmbed/console/options"
+	"github.com/7phs/wordReEmbed/console/storages"
+	"github.com/7phs/wordReEmbed/lib/model/glove"
+	storages2 "github.com/7phs/wordReEmbed/lib/storages"
 )
 
 func showOptions(op *options.GloveOptions) {

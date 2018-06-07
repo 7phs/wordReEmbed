@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/7phs/wordReEmed/console/options"
-	"github.com/7phs/wordReEmed/console/storages"
-	"github.com/7phs/wordReEmed/lib/model/glove"
+	"github.com/7phs/wordReEmbed/console/options"
+	"github.com/7phs/wordReEmbed/console/storages"
+	"github.com/7phs/wordReEmbed/lib/model/glove"
 )
 
 func main() {
