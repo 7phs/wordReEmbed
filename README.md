@@ -9,3 +9,13 @@ Plan:
 - [ ] [Word2Vec](https://code.google.com/archive/p/word2vec/)
 
 Production ready Go library - [word-embedding](https://github.com/ynqa/word-embedding)
+
+# Glove
+
+Build console tools:
+```
+go build -o ./bin/glove/vocab_count ./console/glove/vocab_count.go
+go build -o ./bin/glove/cooccur ./console/glove/cooccur.go  
+```
+
+Using a text corpus of the library: [text8](http://mattmahoney.net/dc/text8.zip).

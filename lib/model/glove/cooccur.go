@@ -2,6 +2,7 @@ package glove
 
 import (
 	"container/ring"
+
 	"github.com/7phs/wordReEmbed/console/options"
 	"github.com/7phs/wordReEmbed/lib/storages"
 )

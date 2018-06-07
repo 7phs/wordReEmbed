@@ -53,15 +53,8 @@ func (o VocabCount) Sort(min, max int) (result []*WordCount) {
 	}
 
 	sort.Slice(result, func(i, j int) bool {
-		if result[i].Count > result[j].Count {
-			return true
-		}
-
-		if result[i].Count == result[j].Count {
-			return strings.Compare(result[i].Word, result[j].Word) < 0
-		}
-
-		return false
+		return result[i].Count > result[j].Count ||
+			result[i].Count == result[j].Count && strings.Compare(result[i].Word, result[j].Word) < 0
 	})
 
 	if max > 0 && len(result) > max {

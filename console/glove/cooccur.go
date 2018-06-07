@@ -1,8 +1,9 @@
-package glove
+package main
 
 import (
 	"fmt"
 	"os"
+
 	"github.com/7phs/wordReEmbed/console/options"
 	"github.com/7phs/wordReEmbed/console/storages"
 	"github.com/7phs/wordReEmbed/lib/model/glove"

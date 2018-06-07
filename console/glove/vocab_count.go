@@ -1,4 +1,4 @@
-package glove
+package main
 
 import (
 	"fmt"
