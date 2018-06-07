@@ -13,11 +13,6 @@ import (
 	"github.com/7phs/wordReEmbed/console/options"
 )
 
-type BigramStorage interface {
-	WeightInc(wordIndex, wordIndex2 int, weight float64)
-	Flush()
-}
-
 type BigramRec struct {
 	wordIndexS int64
 	weight     float64
